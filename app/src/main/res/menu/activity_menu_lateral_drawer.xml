@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/fondo"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_radio_black_24dp"
+            android:title="Radio Restauración Familiar" />
+
+        <item
+            android:id="@+id/video_streaming"
+            android:icon="@drawable/ic_radio_black_24dp"
+            android:title="Restauración Familiar  TV" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Noticias y eventos" />
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_info"
+            android:title="Información general" />
+    </group>
+
+    <item android:title="Servicios">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Comparte tus ideas" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Envia tus peticíones de oración" />
+            <item
+                android:id="@+id/cafeteria"
+                android:icon="@drawable/a"
+                android:title="Cafetería" />
+        </menu>
+    </item>
+    <item android:title="Departamentos">
+        <menu>
+            <item
+                android:id="@+id/nav_sharee"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Alabanza" />
+            <item
+                android:id="@+id/nav_sende"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Servidores" />
+            <item
+                android:id="@+id/cafeteriae"
+                android:icon="@drawable/a"
+                android:title="Danza" />
+        </menu>
+    </item>
+</menu>
